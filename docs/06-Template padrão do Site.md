@@ -1,12 +1,38 @@
-# Template padrão do site
+                                   Tela cadastro de usuário  
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+Endereço de e-mail: Campo para o usuário inserir seu endereço de e-mail, que também pode ser usado como nome de usuário para fazer login posteriormente.
+Senha: Campo para o usuário inserir uma senha segura para proteger sua conta.
+Confirmação de senha: Campo para o usuário confirmar a senha inserida anteriormente.
+Data de nascimento: Campo para o usuário inserir sua data de nascimento.
+botão confirmar: ao clicar o usuário é redirecionado a tela “tela cadastro de usuário secundária ”.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+                               Tela cadastro de usuário secundária
+foto de usuário: Campo para o usuário inserir sua foto de perfil.
+Nome completo:Campo para o usuário inserir seu nome completo.
+botão confirmar: ao clicar o usuário é redirecionado a tela “tela principal ”.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+                                         Tela principal
+
+-cabeçario:Um cabeçalho, com o botão de “perfil” à esquerda,um botão  de busca à direita e um botão de “criação de eventos” à direita. O cabeçalho  tem fundo de cor sólida. Componentes:
+botão “perfil”: ao clicar o usuário é redirecionado a tela “perfil”
+botao “criação de eventos”: ao clicar o usuário é redirecionado a tela “novo evento”
+botão “busca”:ao clicar o usuário é redirecionado a tela “procurar”
+
+-barra de navegação: contém elementos que facilitem a navegação e a localização de informações importantes para os usuários. 
+eventos: uma breve descrição sobre o evento, nome, data e local.
+botão mais: ao clicar o usuário é redirecionado a tela “evento”
+        
+                                           Tela evento
+-cabeçario:Um cabeçalho, contém o nome do evento,o cabeçalho  tem fundo de cor sólida.
+-barra de navegação: contém informações detalhadas sobre o evento, data, localização, descrição e o botão “Inscrever se” . 
+botão Inscrever se: permite que o usuário se inscreva no evento.
+
+                                          Tela novo evento
+-cabeçario:Um cabeçalho, contém título novo evento,o cabeçalho  tem fundo de cor sólida
+
+-barra de navegação: uma barra de navegação que oferece aos organizadores uma plataforma intuitiva e abrangente para configurar e promover seus eventos.
+Nome do evento: Campo para o organizador inserir o título do evento.
+Descrição do evento: Campo para o organizador fornecer uma descrição detalhada do evento, incluindo informações sobre os palestrantes/artistas, agenda, atividades, etc.
+Data e hora: Campos para o organizador selecionar a data e hora do evento.
+Localização: Campos para o organizador inserir o local do evento, incluindo endereço completo, nome do local e instruções para chegar lá.
+Botão criar: ao clicar o usuário é redirecionado para tela de pagamento. 
